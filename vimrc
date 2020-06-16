@@ -111,7 +111,7 @@ map <Leader><Leader>k <Plug>(easymotion-k)
 map <Leader><leader>l <Plug>(easymotion-lineforward)
 " 重复上一次操作, 类似repeat插件, 很强大
 map <Leader><leader>. <Plug>(easymotion-repeat)
-
+map mm <C-y>,
 "YouCompleteMe智能补全工具
 let g:ycm_server_python_interpreter           = '/usr/bin/python3.7'
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
