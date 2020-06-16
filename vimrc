@@ -33,8 +33,14 @@ Plugin 'vim-scripts/mru.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'mgedmin/python-imports.vim'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'groenewege/vim-less'
+"Plugin 'Raimondi/delimitMate'
+Plugin 'jiangmiao/auto-pairs'
 "Plugin 'airblade/vim-gitgutter'
-
+Plugin 'pangloss/vim-javascript'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'marijnh/tern_for_vim'
 " 来自 http://vim-scripts.org/vim/scripts.html 的插件
 " Plugin '插件名称' 实际上是 Plugin 'vim-scripts/插件仓库名' 只是此处的用户名可以省略
 "Plugin 'L9'
@@ -301,3 +307,13 @@ let g:ropevim_enable_autoimport=1
 let g:ropevim_autoimport_modules = ["os", "django"]
 let g:pymode_rope_completion = 0
 let g:pymode_rope_complete_on_dot = 0
+set ts=4
+set sw=4
+set expandtab autoindent
+"let g:delimitMate_expand_cr = 1
+let g:AutoPairsMapCR = 1
+let g:ycm_semantic_triggers = {
+    \   'css': [ 're!^\s{4}', 're!:\s+'],
+    \   'html': [ '</' ],
+    \ }
+let javascript_enable_domhtmlcss = 1
