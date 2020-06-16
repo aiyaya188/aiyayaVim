@@ -30,6 +30,7 @@ Plugin 'fatih/vim-go'
 Plugin 'skywind3000/asyncrun.vim'
 Plugin 'elrrrrrrr/qin-sync'
 Plugin 'vim-scripts/mru.vim'
+Plugin 'mattn/emmet-vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'mgedmin/python-imports.vim'
 "Plugin 'airblade/vim-gitgutter'
@@ -134,6 +135,7 @@ let g:ycm_complete_in_strings = 1
 "let g:ycm_key_list_select_completion = ['<c-n>', '<Down>']
 let g:ycm_key_list_select_completion = ['<tab>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<c-p>', '<Up>']
+let g:ycm_key_list_stop_completion = ['<CR>']
 " 设置在下面几种格式的文件上屏蔽ycm
 let g:ycm_filetype_blacklist = {
       \ 'tagbar' : 1,
